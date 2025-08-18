@@ -6,7 +6,6 @@ import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Github, Linkedin, Mail, ExternalLink, Code, Database, Globe, Smartphone } from "lucide-react"
 import Image from "next/image"
-;
 
 export default function Portfolio() {
   const [isVisible, setIsVisible] = useState(false)
@@ -80,6 +79,38 @@ export default function Portfolio() {
       technologies: ["React.js", "MongoDB", "Tailwind", "Node.js", "MongoDB"],
       link: "https://interview-ai-xi-one.vercel.app/",
     },
+    {
+      title: "Seven Step School",
+      description:
+        "An educational platform providing resources for students, parents, and educators. The website showcases the school’s vision, curriculum, and facilities.",
+      image: "/sevenstep.webp",
+      technologies: ["React.js", "Figma", "Tailwind"],
+      link: "https://seven-step-school.vercel.app/",
+    },
+    {
+      title: "Voranty – Expense, Warranty & Reminder Management System",
+      description:
+        "The application offers a comprehensive suite of features to streamline user and data management. It includes secure user login with token-based authentication to ensure data privacy and integrity. Users can efficiently manage their expenses through full CRUD (Create, Read, Update, Delete) operations, as well as define and apply custom rules. The system also supports robust warranty management, enabling users to track and maintain warranty records with ease.",
+      image: "/voranty.webp",
+      technologies: ["React.js", "MongoDB", "Tailwind", "Node.js", "MongoDB"],
+      link: "https://voranty-delta.vercel.app/",
+    },
+    {
+      title: "GP Financial Services",
+      description:
+        "A professional website for GP Financial Services, showcasing a wide range of financial and insurance solutions tailored to clients’ needs. The site features detailed service descriptions, including loans, investments, and insurance plans. Visitors can explore client testimonials and easily get in touch through the integrated contact form. Designed to build trust and support client inquiries efficiently.",
+      image: "/gpfinance.webp",
+      technologies: ["Next.js", "Figma", "Tailwind"],
+      link: "https://gpfinservices.com/",
+    },
+    {
+      title: "Marketplace NFT platform",
+      description:
+        "A next-generation NFT marketplace for artists, collectors, and traders. Features secure transactions, decentralized ownership, and an active community.",
+      image: "/marketplace.webp",
+      technologies: ["React.Js", "Figma", "Tailwind"],
+      link: "https://nft-sepia-chi.vercel.app/",
+    },
   ]
 
   const skillCategories = [
@@ -88,12 +119,24 @@ export default function Portfolio() {
       skills: [
         { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
         { name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
-        { name: "TypeScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
-        { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+        {
+          name: "TypeScript",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        },
+        {
+          name: "JavaScript",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        },
         { name: "HTML5", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
         { name: "CSS3", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-        { name: "Tailwind CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" },
-        { name: "Bootstrap", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
+        {
+          name: "Tailwind CSS",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        },
+        {
+          name: "Bootstrap",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+        },
       ],
     },
     {
@@ -109,7 +152,10 @@ export default function Portfolio() {
       skills: [
         { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
         { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-        { name: "PostgreSQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+        {
+          name: "PostgreSQL",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        },
         { name: "Firebase", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
       ],
     },
@@ -117,8 +163,14 @@ export default function Portfolio() {
       title: "Cloud & DevOps",
       skills: [
         { name: "Docker", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-        { name: "Kubernetes", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
-        { name: "AWS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
+        {
+          name: "Kubernetes",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+        },
+        {
+          name: "AWS",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+        },
         { name: "Vercel", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" },
         { name: "Netlify", logo: "https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png" },
         { name: "Heroku", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" },
@@ -130,7 +182,10 @@ export default function Portfolio() {
         { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
         { name: "GitHub", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
         { name: "GitLab", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" },
-        { name: "Bitbucket", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" },
+        {
+          name: "Bitbucket",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg",
+        },
         { name: "Postman", logo: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
         { name: "VS Code", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
         { name: "Figma", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
@@ -144,8 +199,7 @@ export default function Portfolio() {
         { name: "Mocha", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" },
       ],
     },
-  ];
-
+  ]
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -153,7 +207,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full z-50 glass-effect">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold gradient-text">K</div>
+            <div className="text-2xl font-bold gradient-text">Monil Nakrani</div>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="hover:text-accent transition-colors">
                 Home
@@ -191,9 +245,6 @@ export default function Portfolio() {
               Passionate about creating exceptional digital experiences through clean code, innovative solutions, and
               cutting-edge technologies.
             </p>
-            <Button size="lg" className="animate-glow hover:scale-105 transition-transform">
-              View My Work
-            </Button>
           </div>
         </div>
       </section>
@@ -218,7 +269,7 @@ export default function Portfolio() {
               <Card className="p-6 glass-effect hover:animate-glow transition-all duration-300">
                 <h3 className="text-2xl font-bold mb-4 gradient-text">Hello, I'm a Web Developer</h3>
                 <p className="text-muted-foreground text-lg leading-relaxed mb-4">
-                  I'm a result-driven Full-Stack Web Developer with 𝟑+ 𝐲𝐞𝐚𝐫𝐬 of proven success building high-performance
+                  I’m a result-driven Full-Stack Web Developer with 𝟑+ 𝐲𝐞𝐚𝐫𝐬 of proven success building high-performance
                   𝐰𝐞𝐛 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬,𝐒𝐚𝐚𝐒 𝐩𝐥𝐚𝐭𝐟𝐨𝐫𝐦𝐬, 𝐚𝐝𝐦𝐢𝐧 𝐝𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝𝐬,𝐂𝐑𝐌/𝐂𝐌𝐒 𝐩𝐨𝐫𝐭𝐚𝐥𝐬, 𝐩𝐚𝐲𝐦𝐞𝐧𝐭 𝐬𝐲𝐬𝐭𝐞𝐦𝐬, and 𝐫𝐞𝐚𝐥-𝐭𝐢𝐦𝐞
                   𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 for startups and scaling businesses. I specialize in 𝐌𝐄𝐑𝐍 stack (MongoDB, Express.js,
                   React.js, Node.js) with a modern twist: TypeScript, GraphQL, Prisma, CI/CD, Docker, Stripe, and AI API
@@ -226,7 +277,7 @@ export default function Portfolio() {
                 </p>
                 <p className="text-muted-foreground text-lg leading-relaxed">
                   Do you have an idea that feels impossible to ship? That "almost there" version you're scared to
-                  launch? That's exactly what I help bring to life—fast, scalable, and production-ready.
+                  launch? That’s exactly what I help bring to life—fast, scalable, and production-ready.
                 </p>
               </Card>
 
@@ -292,8 +343,9 @@ export default function Portfolio() {
             {workExperience.map((job, index) => (
               <Card
                 key={index}
-                className={`p-6 glass-effect hover:scale-105 transition-all duration-300 hover:animate-glow ${index % 2 === 0 ? "animate-slide-in-left" : "animate-slide-in-right"
-                  }`}
+                className={`p-6 glass-effect hover:scale-105 transition-all duration-300 hover:animate-glow ${
+                  index % 2 === 0 ? "animate-slide-in-left" : "animate-slide-in-right"
+                }`}
               >
                 <div className="flex items-start space-x-4">
                   <div className="p-3 rounded-lg bg-accent/20 text-accent">{job.icon}</div>
@@ -313,15 +365,12 @@ export default function Portfolio() {
       {/* Skills */}
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16 gradient-text">
-            Technologies & Skills
-          </h2>
+          <h2 className="text-4xl font-bold text-center mb-16 gradient-text">Technologies & Skills</h2>
+
           <div className="space-y-16">
             {skillCategories.map((category, categoryIndex) => (
               <div key={categoryIndex} className="space-y-8">
-                <h3 className="text-3xl font-bold text-center text-accent">
-                  {category.title}
-                </h3>
+                <h3 className="text-3xl font-bold text-center text-accent">{category.title}</h3>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                   {category.skills.map((skill, skillIndex) => (
                     <Card
@@ -349,7 +398,6 @@ export default function Portfolio() {
         </div>
       </section>
 
-
       {/* Projects */}
       <section id="projects" className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
@@ -370,13 +418,9 @@ export default function Portfolio() {
                       </Badge>
                     ))}
                   </div>
-                  <Button
-                    variant="outline"
-                    className="hover:bg-accent hover:text-accent-foreground bg-transparent"
-                    onClick={() => window.open(project.link, "_blank")}
-                  >
+                  <Button variant="outline" className="hover:bg-accent hover:text-accent-foreground bg-transparent">
                     <ExternalLink className="w-4 h-4 mr-2" />
-                    View Project
+                    {project.link}
                   </Button>
                 </div>
                 <div className="flex-1 animate-slide-in-right">
@@ -392,16 +436,6 @@ export default function Portfolio() {
               </div>
             ))}
           </div>
-
-          <div className="text-center mt-16">
-            <Button
-              size="lg"
-              className="animate-glow hover:scale-105 transition-transform"
-              onClick={() => (window.location.href = "/projects")}
-            >
-              View All Projects
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -413,29 +447,15 @@ export default function Portfolio() {
             I'm always open to discussing new opportunities and interesting projects.
           </p>
           <div className="flex justify-center space-x-6">
-            <Button
-              size="lg"
-              variant="outline"
-              className="hover:bg-accent hover:text-accent-foreground bg-transparent"
-              onClick={() => window.open("https://github.com/monilnakrani", "_blank")}
-            >
+            <Button size="lg" variant="outline" className="hover:bg-accent hover:text-accent-foreground bg-transparent">
               <Github className="w-5 h-5 mr-2" />
               GitHub
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="hover:bg-accent hover:text-accent-foreground bg-transparent"
-              onClick={() => window.open("https://linkedin.com/in/monilnakrani", "_blank")}
-            >
+            <Button size="lg" variant="outline" className="hover:bg-accent hover:text-accent-foreground bg-transparent">
               <Linkedin className="w-5 h-5 mr-2" />
               LinkedIn
             </Button>
-            <Button
-              size="lg"
-              className="animate-glow"
-              onClick={() => (window.location.href = "mailto:monilnakrani@gmail.com")}
-            >
+            <Button size="lg" className="animate-glow">
               <Mail className="w-5 h-5 mr-2" />
               Email Me
             </Button>
