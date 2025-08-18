@@ -49,18 +49,18 @@ export default function Portfolio() {
       title: "Hospital Management System",
       description:
         "A full-stack hospital management system with React, Node.js, and MongoDB. Features include patient registration, appointment scheduling, and medical record management.",
-      image: "/hospital-management-system.png",
+      image: "/hms.png",
       technologies: ["React", "Node.js", "MongoDB", "Paypal", "Tailwind", "Socket.io"],
       link: "https://patient-management-system-gules-eight.vercel.app/",
     },
-    // {
-    //   title: "Task Management App",
-    //   description:
-    //     "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    //   image: "/task-management-app.png",
-    //   technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
-    //   link: "#",
-    // },
+    {
+      title: "Invoice Management System",
+      description:
+        "A comprehensive invoice management system with features for creating, sending, and tracking invoices.",
+      image: "/invoice-management.png",
+      technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
+      link: "#",
+    },
     // {
     //   title: "Task Management App",
     //   description:
@@ -813,7 +813,7 @@ export default function Portfolio() {
                   </div>
                   <Button variant="outline" className="hover:bg-accent hover:text-accent-foreground bg-transparent">
                     <ExternalLink className="w-4 h-4 mr-2" />
-                    View Project
+                    {project.link}
                   </Button>
                 </div>
                 <div className="flex-1 animate-slide-in-right">
