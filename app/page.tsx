@@ -66,49 +66,49 @@ export default function Portfolio() {
       description:
         "An AI-powered resume platform built with MERN Stack that checks the ATS (Applicant Tracking System) score when a resume is uploaded. The platform provides detailed insights on how to improve the score, and with the help of AI, generates highly optimized content for resumes. Users can also select themes to generate professional resumes with high ATS compatibility.",
       image: "/wisum.jpg",
-      technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
+      technologies: ["React.js", "MongoDB", "Tailwind", "Node.js"],
       link: "https://wisume-one.vercel.app/",
     },
-    // {
-    //   title: "Task Management App",
-    //   description:
-    //     "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    //   image: "/task-management-app.png",
-    //   technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
-    //   link: "#",
-    // },
-    // {
-    //   title: "Task Management App",
-    //   description:
-    //     "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    //   image: "/task-management-app.png",
-    //   technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
-    //   link: "#",
-    // },
-    // {
-    //   title: "Task Management App",
-    //   description:
-    //     "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    //   image: "/task-management-app.png",
-    //   technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
-    //   link: "#",
-    // },
-    // {
-    //   title: "Task Management App",
-    //   description:
-    //     "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    //   image: "/task-management-app.png",
-    //   technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
-    //   link: "#",
-    // },
-    // {
-    //   title: "Task Management App",
-    //   description:
-    //     "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    //   image: "/task-management-app.png",
-    //   technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
-    //   link: "#",
-    // },
+    {
+      title: "Interview With AI",
+      description:
+        "An AI-powered platform that simulates real interview scenarios, providing users with a unique opportunity to practice and improve their interview skills.",
+      image: "/Interviewai.webp",
+      technologies: ["React.js", "MongoDB", "Tailwind", "Node.js", "MongoDB"],
+      link: "https://interview-ai-xi-one.vercel.app/",
+    },
+    {
+      title: "Seven Step School",
+      description:
+        "An educational platform providing resources for students, parents, and educators. The website showcases the school’s vision, curriculum, and facilities.",
+      image: "/sevenstep.webp",
+      technologies: ["React.js", "Figma", "Tailwind"],
+      link: "https://seven-step-school.vercel.app/",
+    },
+    {
+      title: "Voranty – Expense, Warranty & Reminder Management System",
+      description:
+        "The application offers a comprehensive suite of features to streamline user and data management. It includes secure user login with token-based authentication to ensure data privacy and integrity. Users can efficiently manage their expenses through full CRUD (Create, Read, Update, Delete) operations, as well as define and apply custom rules. The system also supports robust warranty management, enabling users to track and maintain warranty records with ease.",
+      image: "/voranty.webp",
+      technologies: ["React.js", "MongoDB", "Tailwind", "Node.js", "MongoDB"],
+      link: "https://voranty-delta.vercel.app/",
+    },
+    {
+      title: "GP Financial Services",
+      description:
+        "A professional website for GP Financial Services, showcasing a wide range of financial and insurance solutions tailored to clients’ needs. The site features detailed service descriptions, including loans, investments, and insurance plans. Visitors can explore client testimonials and easily get in touch through the integrated contact form. Designed to build trust and support client inquiries efficiently.",
+      image: "/gpfinance.webp",
+      technologies: ["Next.js", "Figma", "Tailwind"],
+      link: "https://gpfinservices.com/",
+    },
+    {
+      title: "Marketplace NFT platform",
+      description:
+        "A next-generation NFT marketplace for artists, collectors, and traders. Features secure transactions, decentralized ownership, and an active community.",
+      image: "/marketplace.webp",
+      technologies: ["React.Js",  "Figma", "Tailwind"],
+      link: "https://nft-sepia-chi.vercel.app/",
+    },
   ]
 
   const skillCategories = [
