@@ -57,18 +57,18 @@ export default function Portfolio() {
       title: "Invoice Management System",
       description:
         "A comprehensive invoice management system with features for creating, sending, and tracking invoices.",
-      image: "/invoice-management.png",
-      technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
-      link: "#",
+      image: "/inovice.png",
+      technologies: ["React.js", "MongoDB", "Tailwind", "Node.js"],
+      link: "https://invoice-rouge-kappa.vercel.app/",
     },
-    // {
-    //   title: "Task Management App",
-    //   description:
-    //     "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    //   image: "/task-management-app.png",
-    //   technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
-    //   link: "#",
-    // },
+    {
+      title: "Wisume - AI-Driven Resume Builder",
+      description:
+        "An AI-powered resume platform built with MERN Stack that checks the ATS (Applicant Tracking System) score when a resume is uploaded. The platform provides detailed insights on how to improve the score, and with the help of AI, generates highly optimized content for resumes. Users can also select themes to generate professional resumes with high ATS compatibility.",
+      image: "/wisum.jpg",
+      technologies: ["Next.js", "Socket.io", "MongoDB", "Tailwind"],
+      link: "https://wisume-one.vercel.app/",
+    },
     // {
     //   title: "Task Management App",
     //   description:
