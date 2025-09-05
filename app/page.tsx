@@ -153,7 +153,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full z-50 glass-effect">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold gradient-text">K</div>
+            <div className="text-2xl font-bold gradient-text">Monil Nakrani</div>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="hover:text-accent transition-colors">
                 Home
