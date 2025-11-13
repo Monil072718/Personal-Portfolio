@@ -207,7 +207,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full z-50 glass-effect">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold gradient-text">Monil Nakrani</div>
+            <div className="text-2xl font-bold gradient-text cursor-pointer">Monil Nakrani</div>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="hover:text-accent transition-colors">
                 Home
@@ -232,6 +232,45 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-accent/20"></div>
+        
+        {/* Floating Tech Icons */}
+        <div className="absolute top-20 left-10 w-16 h-16 opacity-20 animate-float">
+          <Image
+            src="/tailwindcss.svg"
+            alt="Tailwind CSS"
+            width={64}
+            height={64}
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <div className="absolute top-40 right-20 w-20 h-20 opacity-20 animate-float" style={{ animationDelay: "1s" }}>
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+            alt="AWS"
+            width={80}
+            height={80}
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <div className="absolute bottom-40 left-20 w-16 h-16 opacity-20 animate-float" style={{ animationDelay: "2s" }}>
+          <Image
+            src="/tailwindcss.svg"
+            alt="Tailwind CSS"
+            width={64}
+            height={64}
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <div className="absolute bottom-20 right-10 w-20 h-20 opacity-20 animate-float" style={{ animationDelay: "1.5s" }}>
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+            alt="AWS"
+            width={80}
+            height={80}
+            className="w-full h-full object-contain"
+          />
+        </div>
+
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
           <div className={`transition-all duration-1000 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}>
             <div className="mb-8 animate-float">

@@ -153,7 +153,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full z-50 glass-effect">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold gradient-text">Monil Nakrani</div>
+            <div className="text-2xl font-bold gradient-text cursor-pointer">Monil Nakrani</div>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="hover:text-accent transition-colors">
                 Home
@@ -178,6 +178,45 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-accent/20"></div>
+        
+        {/* Floating Tech Icons */}
+        <div className="absolute top-20 left-10 w-16 h-16 opacity-20 animate-float">
+          <Image
+            src="/tailwindcss.svg"
+            alt="Tailwind CSS"
+            width={64}
+            height={64}
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <div className="absolute top-40 right-20 w-20 h-20 opacity-20 animate-float" style={{ animationDelay: "1s" }}>
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+            alt="AWS"
+            width={80}
+            height={80}
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <div className="absolute bottom-40 left-20 w-16 h-16 opacity-20 animate-float" style={{ animationDelay: "2s" }}>
+          <Image
+            src="/tailwindcss.svg"
+            alt="Tailwind CSS"
+            width={64}
+            height={64}
+            className="w-full h-full object-contain"
+          />
+        </div>
+        <div className="absolute bottom-20 right-10 w-20 h-20 opacity-20 animate-float" style={{ animationDelay: "1.5s" }}>
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+            alt="AWS"
+            width={80}
+            height={80}
+            className="w-full h-full object-contain"
+          />
+        </div>
+
         <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
           <div className={`transition-all duration-1000 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}>
             <div className="mb-8 animate-float">
@@ -185,13 +224,13 @@ export default function Portfolio() {
                 👨‍💻
               </div>
             </div>
-            <h1 className="text-6xl md:text-8xl font-bold mb-4 gradient-text">Monil Nakrani</h1>
+            <h1 className="text-6xl md:text-8xl font-bold mb-4 gradient-text ">Monil Nakrani</h1>
             <p className="text-xl md:text-2xl mb-4 text-muted-foreground">I'm a Web Developer</p>
             <p className="text-lg mb-8 text-muted-foreground max-w-2xl mx-auto">
               Passionate about creating exceptional digital experiences through clean code, innovative solutions, and
               cutting-edge technologies.
             </p>
-            <Button size="lg" className="animate-glow hover:scale-105 transition-transform">
+            <Button size="lg" className="animate-glow hover:scale-105 transition-transform cursor-pointer">
               View My Work
             </Button>
           </div>
@@ -417,7 +456,7 @@ export default function Portfolio() {
               size="lg"
               variant="outline"
               className="hover:bg-accent hover:text-accent-foreground bg-transparent"
-              onClick={() => window.open("https://github.com/monilnakrani", "_blank")}
+              onClick={() => window.open("https://github.com/Monil072718", "_blank")}
             >
               <Github className="w-5 h-5 mr-2" />
               GitHub
@@ -426,7 +465,7 @@ export default function Portfolio() {
               size="lg"
               variant="outline"
               className="hover:bg-accent hover:text-accent-foreground bg-transparent"
-              onClick={() => window.open("https://linkedin.com/in/monilnakrani", "_blank")}
+              onClick={() => window.open("https://www.linkedin.com/in/monil072718", "_blank")}
             >
               <Linkedin className="w-5 h-5 mr-2" />
               LinkedIn
@@ -434,7 +473,7 @@ export default function Portfolio() {
             <Button
               size="lg"
               className="animate-glow"
-              onClick={() => (window.location.href = "mailto:monilnakrani@gmail.com")}
+              onClick={() => (window.location.href = "mailto:nakranimonil18@gmail.com")}
             >
               <Mail className="w-5 h-5 mr-2" />
               Email Me
