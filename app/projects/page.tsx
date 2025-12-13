@@ -8,6 +8,22 @@ import { ExternalLink, ArrowLeft } from "lucide-react"
 export default function ProjectsPage() {
   const allProjects = [
     {
+      title: "Digistic NFT",
+      description:
+        "A next-generation NFT marketplace for artists, collectors, and traders. Features secure transactions, decentralized ownership, and an active community.",
+      image: "/nft.webp",
+      technologies: ["React.js", "Tailwind", "Framer motion"],
+      link: "https://digistic-nft-blond.vercel.app/",
+    },
+    {
+      title: "SA Solar Technology",
+      description:
+        "SA Solar Technology offers solar solutions for residential, commercial, and industrial applications. The website provides product information and services to promote sustainable energy adoption.",
+      image: "/solar.webp",
+      technologies: ["Next.js", "Shadcn", "Tailwind CSS"],
+      link: "https://sasolartechnology.inferoinfotech.com/",
+    },
+    {
       title: "Hospital Management System",
       description:
         "A full-stack hospital management system with React, Node.js, and MongoDB. Features include patient registration, appointment scheduling, and medical record management.",
