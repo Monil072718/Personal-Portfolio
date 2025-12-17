@@ -19,28 +19,21 @@ export default function Portfolio() {
     {
       title: "Full Stack Developer",
       company: "Vermillion Tech",
-      period: "2022 - 2024",
+      period: "2022 - 2023",
       description: "Leading full-stack development projects and mentoring junior developers.",
       icon: <Code className="w-6 h-6" />,
     },
     {
       title: "Full Stack Developer",
       company: "Swiftrut Technologies",
-      period: "2024 - 2025",
+      period: "2024 - 2024",
       description: "Built scalable web applications using React, Node.js, and cloud technologies.",
       icon: <Globe className="w-6 h-6" />,
     },
     {
-      title: "Full Stack Developer",
-      company: "Infero Infotech",
-      period: "2025 - Present",
-      description: "Built and maintained scalable full-stack applications, enhancing functionality and performance.",
-      icon: <Smartphone className="w-6 h-6" />,
-    },
-    {
       title: "Freelance Web Developer",
       company: "Upwork",
-      period: "2025 - Present",
+      period: "2023 - Present",
       description:
         "Delivered tailored web solutions to clients, ensuring quality, responsiveness, and timely delivery.",
       icon: <Database className="w-6 h-6" />,
@@ -230,7 +223,11 @@ export default function Portfolio() {
               Passionate about creating exceptional digital experiences through clean code, innovative solutions, and
               cutting-edge technologies.
             </p>
-            <Button size="lg" className="animate-glow hover:scale-105 transition-transform cursor-pointer">
+            <Button
+              size="lg"
+              className="animate-glow hover:scale-105 transition-transform cursor-pointer"
+              onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
+            >
               View My Work
             </Button>
           </div>
@@ -276,7 +273,7 @@ export default function Portfolio() {
                       <Code className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">3+ Years</h4>
+                      <h4 className="font-semibold">2+ Years</h4>
                       <p className="text-sm text-muted-foreground">Experience</p>
                     </div>
                   </div>

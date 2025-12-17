@@ -327,7 +327,7 @@ export default function Portfolio() {
                       <Code className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="font-semibold">3+ Years</h4>
+                      <h4 className="font-semibold">2+ Years</h4>
                       <p className="text-sm text-muted-foreground">Experience</p>
                     </div>
                   </div>
