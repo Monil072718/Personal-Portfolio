@@ -42,6 +42,15 @@ export default function Portfolio() {
   const aboutRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search)
+      if (params.get("home") !== "1" && params.get("home") !== "true") {
+        window.location.replace("/projects")
+      }
+    }
+  }, [])
+
+  useEffect(() => {
     const el = aboutRef.current
     if (!el) return
     const observer = new IntersectionObserver(

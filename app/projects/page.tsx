@@ -4,10 +4,11 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { ExternalLink, ArrowLeft, Github, Linkedin, Mail } from "lucide-react"
+import { ExternalLink, Github, Linkedin, Mail, Menu, X } from "lucide-react"
 
 export default function ProjectsPage() {
   const [filter, setFilter] = useState("all")
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const allProjects = [
     {
@@ -222,25 +223,174 @@ export default function ProjectsPage() {
 
   return (
     <div className="min-h-screen bg-[#FAF8F5] text-neutral-900 selection:bg-amber-100 selection:text-amber-900">
-      {/* Top Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-[#FAF8F5]/90 backdrop-blur-md border-b border-amber-100/70">
+      {/* Top Header (Matching Home Page Navbar) */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-[#FAF8F5]/90 backdrop-blur-md border-b border-amber-100/70 transition-all">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <a
-            href="/"
-            className="text-2xl font-extrabold tracking-tight text-neutral-900 hover:text-amber-600 transition-colors"
+            href="/?home=1"
+            className="text-2xl font-extrabold tracking-tight text-neutral-900 hover:text-amber-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded-md px-1"
           >
             Monil Nakrani<span className="text-[#F59E0B]">.</span>
           </a>
-          <Button
-            variant="outline"
-            size="sm"
-            className="border-neutral-300 hover:border-amber-400 hover:bg-amber-50 rounded-xl"
-            onClick={() => (window.location.href = "/")}
+
+          {/* Desktop Nav */}
+          <nav aria-label="Main Navigation" className="hidden md:flex items-center space-x-8">
+            <a
+              href="/?home=1#home"
+              className="relative inline-flex items-center text-sm font-semibold text-neutral-700 hover:text-neutral-950 transition-colors duration-[180ms] after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:rounded-full after:bg-amber-400 after:scale-x-0 after:origin-center after:transition-transform after:duration-200 hover:after:scale-x-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded px-1.5 py-1"
+            >
+              Home
+            </a>
+            <a
+              href="/?home=1#services"
+              className="relative inline-flex items-center text-sm font-semibold text-neutral-700 hover:text-neutral-950 transition-colors duration-[180ms] after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:rounded-full after:bg-amber-400 after:scale-x-0 after:origin-center after:transition-transform after:duration-200 hover:after:scale-x-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded px-1.5 py-1"
+            >
+              Services
+            </a>
+            <a
+              href="/?home=1#about"
+              className="relative inline-flex items-center text-sm font-semibold text-neutral-700 hover:text-neutral-950 transition-colors duration-[180ms] after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:rounded-full after:bg-amber-400 after:scale-x-0 after:origin-center after:transition-transform after:duration-200 hover:after:scale-x-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded px-1.5 py-1"
+            >
+              About
+            </a>
+            <a
+              href="/?home=1#work"
+              className="relative inline-flex items-center text-sm font-semibold text-neutral-700 hover:text-neutral-950 transition-colors duration-[180ms] after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:rounded-full after:bg-amber-400 after:scale-x-0 after:origin-center after:transition-transform after:duration-200 hover:after:scale-x-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded px-1.5 py-1"
+            >
+              Experience
+            </a>
+            <a
+              href="/?home=1#skills"
+              className="relative inline-flex items-center text-sm font-semibold text-neutral-700 hover:text-neutral-950 transition-colors duration-[180ms] after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:rounded-full after:bg-amber-400 after:scale-x-0 after:origin-center after:transition-transform after:duration-200 hover:after:scale-x-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded px-1.5 py-1"
+            >
+              Skills
+            </a>
+            <a
+              href="/projects"
+              className="relative inline-flex items-center text-sm font-bold text-neutral-950 transition-colors duration-[180ms] after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2.5px] after:rounded-full after:bg-[#F59E0B] after:scale-x-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded px-1.5 py-1"
+            >
+              Projects
+            </a>
+            <a
+              href="/?home=1#contact"
+              className="relative inline-flex items-center text-sm font-semibold text-neutral-700 hover:text-neutral-950 transition-colors duration-[180ms] after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:rounded-full after:bg-amber-400 after:scale-x-0 after:origin-center after:transition-transform after:duration-200 hover:after:scale-x-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded px-1.5 py-1"
+            >
+              Contact
+            </a>
+          </nav>
+
+          {/* Right Action on Nav */}
+          <div className="hidden md:flex items-center space-x-3">
+            <a
+              href="https://github.com/Monil072718"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-xl text-neutral-600 hover:text-neutral-900 hover:bg-amber-100/50 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
+              aria-label="GitHub Profile"
+            >
+              <Github className="w-5 h-5" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/monil072718"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-xl text-neutral-600 hover:text-[#0A66C2] hover:bg-amber-100/50 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
+              aria-label="LinkedIn Profile"
+            >
+              <Linkedin className="w-5 h-5" />
+            </a>
+            <a
+              href="/?home=1#contact"
+              className="text-xs font-bold px-4 py-2 rounded-xl bg-[#F59E0B] text-neutral-950 hover:bg-[#D97706] shadow-2xs hover:shadow-sm transition-all duration-150 cursor-pointer"
+            >
+              Let's Talk
+            </a>
+          </div>
+
+          {/* Mobile Nav Toggle */}
+          <button
+            type="button"
+            className="md:hidden p-2 rounded-lg text-neutral-700 hover:bg-amber-100/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
+            aria-label="Toggle navigation menu"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            <ArrowLeft className="w-4 h-4 mr-1.5" />
-            Back to Home
-          </Button>
+            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
         </div>
+
+        {/* Mobile Dropdown */}
+        {mobileMenuOpen && (
+          <nav aria-label="Mobile Navigation" className="md:hidden border-b border-amber-100/80 bg-[#FAF8F5] px-6 py-4 flex flex-col space-y-3 shadow-lg">
+            <a
+              href="/?home=1#home"
+              className="text-base font-semibold text-neutral-800 hover:text-amber-600 py-1"
+            >
+              Home
+            </a>
+            <a
+              href="/?home=1#services"
+              className="text-base font-semibold text-neutral-800 hover:text-amber-600 py-1"
+            >
+              Services
+            </a>
+            <a
+              href="/?home=1#about"
+              className="text-base font-semibold text-neutral-800 hover:text-amber-600 py-1"
+            >
+              About
+            </a>
+            <a
+              href="/?home=1#work"
+              className="text-base font-semibold text-neutral-800 hover:text-amber-600 py-1"
+            >
+              Experience
+            </a>
+            <a
+              href="/?home=1#skills"
+              className="text-base font-semibold text-neutral-800 hover:text-amber-600 py-1"
+            >
+              Skills
+            </a>
+            <a
+              href="/projects"
+              className="text-base font-bold text-[#A75A00] py-1"
+            >
+              Projects
+            </a>
+            <a
+              href="/?home=1#contact"
+              className="text-base font-semibold text-neutral-800 hover:text-amber-600 py-1"
+            >
+              Contact
+            </a>
+            <div className="pt-2 flex items-center justify-between border-t border-amber-100">
+              <div className="flex items-center space-x-3">
+                <a
+                  href="https://github.com/Monil072718"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 text-neutral-600 hover:text-neutral-900"
+                >
+                  <Github className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/monil072718"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 text-neutral-600 hover:text-[#0A66C2]"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
+              </div>
+              <a
+                href="/?home=1#contact"
+                className="text-xs font-bold px-4 py-2 rounded-xl bg-[#F59E0B] text-neutral-950"
+              >
+                Let's Talk
+              </a>
+            </div>
+          </nav>
+        )}
       </header>
 
       {/* Main Content */}
