@@ -1,18 +1,10 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { DM_Sans } from "next/font/google"
 import "./globals.css"
 
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-dm-sans",
-})
-
 export const metadata: Metadata = {
-  title: "Portfolio - Software Engineer",
-  description: "Personal portfolio showcasing software engineering projects and experience",
-  generator: "v0.app",
+  title: "Monil Nakrani - Web Developer",
+  description: "Passionate about creating exceptional digital experiences through clean code, innovative solutions, and cutting-edge technologies.",
 }
 
 export default function RootLayout({
@@ -21,16 +13,13 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="scroll-smooth">
       <head>
-        <style>{`
-html {
-  font-family: ${dmSans.style.fontFamily};
-  --font-sans: ${dmSans.variable};
-}
-        `}</style>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className={dmSans.className}>{children}</body>
+      <body className="font-sans antialiased text-neutral-900 bg-[#FAF8F5] selection:bg-amber-100 selection:text-amber-900 min-h-screen">
+        {children}
+      </body>
     </html>
   )
 }

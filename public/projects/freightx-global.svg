@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+      
+    <rect width="800" height="38" fill="#0F172A"/>
+    <circle cx="20" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="36" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="52" cy="19" r="5" fill="#10B981"/>
+    <rect x="180" y="8" width="440" height="22" rx="11" fill="#1E293B"/>
+    <text x="400" y="23" fill="#94A3B8" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="500">freightxglobal.com</text>
+  
+      <rect y="38" width="800" height="462" fill="#F4F6F9"/>
+      <!-- Header -->
+      <rect y="38" width="800" height="60" fill="#0A2540"/>
+      <text x="40" y="75" fill="#00D4B2" font-size="18" font-family="system-ui, sans-serif" font-weight="800">FREIGHT<tspan fill="#FFFFFF">X</tspan> GLOBAL</text>
+      <text x="440" y="74" fill="#E2E8F0" font-size="12" font-family="system-ui, sans-serif">Ocean Freight</text>
+      <text x="535" y="74" fill="#E2E8F0" font-size="12" font-family="system-ui, sans-serif">Air Cargo</text>
+      <text x="610" y="74" fill="#E2E8F0" font-size="12" font-family="system-ui, sans-serif">Customs</text>
+      <rect x="680" y="52" width="90" height="32" rx="4" fill="#00D4B2"/>
+      <text x="725" y="72" fill="#0A2540" font-size="11" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">Track Cargo</text>
+      <!-- Hero -->
+      <g transform="translate(40, 130)">
+        <text x="0" y="15" fill="#00D4B2" font-size="11" font-family="system-ui, sans-serif" font-weight="700" letter-spacing="1.5">WORLDWIDE CARGO &amp; FREIGHT SOLUTIONS</text>
+        <text x="0" y="55" fill="#0A2540" font-size="32" font-family="system-ui, sans-serif" font-weight="800">Seamless Global Logistics</text>
+        <text x="0" y="90" fill="#0A2540" font-size="32" font-family="system-ui, sans-serif" font-weight="800">Across 140+ Countries</text>
+      </g>
+      <!-- Tracking Search Box -->
+      <g transform="translate(40, 245)">
+        <rect width="720" height="65" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+        <text x="24" y="38" fill="#64748B" font-size="13" font-family="system-ui, sans-serif">🔍 Enter Container #, Bill of Lading, or Air Waybill...</text>
+        <rect x="580" y="12" width="125" height="40" rx="6" fill="#0A2540"/>
+        <text x="642" y="37" fill="#00D4B2" font-size="12" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">Track Now</text>
+      </g>
+      <!-- Service Pillars -->
+      <g transform="translate(40, 330)">
+        <rect width="220" height="135" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+        <text x="20" y="38" fill="#0A2540" font-size="20">🚢</text>
+        <text x="20" y="70" fill="#0A2540" font-size="14" font-family="system-ui, sans-serif" font-weight="700">Ocean Freight FCL/LCL</text>
+        <text x="20" y="95" fill="#64748B" font-size="11" font-family="system-ui, sans-serif">Global shipping lines with guaranteed vessel space &amp; live container tracking.</text>
+      </g>
+      <g transform="translate(290, 330)">
+        <rect width="220" height="135" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+        <text x="20" y="38" fill="#0A2540" font-size="20">✈️</text>
+        <text x="20" y="70" fill="#0A2540" font-size="14" font-family="system-ui, sans-serif" font-weight="700">Expedited Air Cargo</text>
+        <text x="20" y="95" fill="#64748B" font-size="11" font-family="system-ui, sans-serif">Priority airport-to-airport customs clearing and temperature-controlled cargo.</text>
+      </g>
+      <g transform="translate(540, 330)">
+        <rect width="220" height="135" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+        <text x="20" y="38" fill="#0A2540" font-size="20">📋</text>
+        <text x="20" y="70" fill="#0A2540" font-size="14" font-family="system-ui, sans-serif" font-weight="700">Customs Brokerage</text>
+        <text x="20" y="95" fill="#64748B" font-size="11" font-family="system-ui, sans-serif">Hassle-free HS code classification, duty computation, and port clearances.</text>
+      </g>
+    </svg>

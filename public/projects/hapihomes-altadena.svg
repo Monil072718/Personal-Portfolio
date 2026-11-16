@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+      
+    <rect width="800" height="38" fill="#0F172A"/>
+    <circle cx="20" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="36" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="52" cy="19" r="5" fill="#10B981"/>
+    <rect x="180" y="8" width="440" height="22" rx="11" fill="#1E293B"/>
+    <text x="400" y="23" fill="#94A3B8" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="500">altadenabuilds.com</text>
+  
+      <rect y="38" width="800" height="462" fill="#121212"/>
+      <!-- Header -->
+      <rect y="38" width="800" height="60" fill="#1A1A1A"/>
+      <text x="40" y="75" fill="#D4AF37" font-size="18" font-family="serif" font-weight="700" letter-spacing="2">ALTADENA BUILDS</text>
+      <text x="480" y="73" fill="#A3A3A3" font-size="12" font-family="system-ui, sans-serif">Residences</text>
+      <text x="560" y="73" fill="#A3A3A3" font-size="12" font-family="system-ui, sans-serif">Gallery</text>
+      <rect x="640" y="52" width="120" height="32" rx="4" fill="#D4AF37"/>
+      <text x="700" y="72" fill="#121212" font-size="11" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">Schedule Tour</text>
+      <!-- Hero -->
+      <g transform="translate(40, 130)">
+        <text x="0" y="20" fill="#D4AF37" font-size="11" font-family="system-ui, sans-serif" font-weight="700" letter-spacing="3">EXCLUSIVE CALIFORNIA LIVING</text>
+        <text x="0" y="65" fill="#FFFFFF" font-size="34" font-family="serif" font-weight="700">Architectural Luxury at</text>
+        <text x="0" y="105" fill="#FFFFFF" font-size="34" font-family="serif" font-weight="700">The Altadena Foothills</text>
+        <text x="0" y="145" fill="#A3A3A3" font-size="13" font-family="system-ui, sans-serif">Custom modern estates with panoramic mountain vistas and resort amenities.</text>
+      </g>
+      <!-- Luxury Visual Showcase Cards -->
+      <g transform="translate(40, 300)">
+        <rect width="225" height="165" rx="8" fill="#1E1E1E" stroke="#2E2E2E" stroke-width="1.5"/>
+        <rect width="225" height="100" fill="#282828"/>
+        <text x="112" y="55" fill="#D4AF37" font-size="28" text-anchor="middle">🏛️</text>
+        <text x="16" y="125" fill="#FFFFFF" font-size="13" font-family="serif" font-weight="700">Estate Villa 04</text>
+        <text x="16" y="145" fill="#D4AF37" font-size="11" font-family="system-ui, sans-serif">$2,850,000 · 5 Bed · 5.5 Bath</text>
+      </g>
+      <g transform="translate(285, 300)">
+        <rect width="225" height="165" rx="8" fill="#1E1E1E" stroke="#2E2E2E" stroke-width="1.5"/>
+        <rect width="225" height="100" fill="#282828"/>
+        <text x="112" y="55" fill="#D4AF37" font-size="28" text-anchor="middle">🏊</text>
+        <text x="16" y="125" fill="#FFFFFF" font-size="13" font-family="serif" font-weight="700">The Horizon Residence</text>
+        <text x="16" y="145" fill="#D4AF37" font-size="11" font-family="system-ui, sans-serif">$3,400,000 · Infinity Pool</text>
+      </g>
+      <g transform="translate(530, 300)">
+        <rect width="230" height="165" rx="8" fill="#1E1E1E" stroke="#D4AF37" stroke-width="1.5"/>
+        <text x="20" y="35" fill="#D4AF37" font-size="13" font-family="serif" font-weight="700">Virtual Walkthrough</text>
+        <text x="20" y="60" fill="#A3A3A3" font-size="11" font-family="system-ui, sans-serif">Immerse yourself in our interactive 3D virtual tour.</text>
+        <rect x="20" y="95" width="190" height="35" rx="4" fill="#D4AF37"/>
+        <text x="115" y="117" fill="#121212" font-size="11" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">Launch 3D Tour ↗</text>
+      </g>
+    </svg>

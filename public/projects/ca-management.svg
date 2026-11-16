@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+      
+    <rect width="800" height="38" fill="#0F172A"/>
+    <circle cx="20" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="36" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="52" cy="19" r="5" fill="#10B981"/>
+    <rect x="180" y="8" width="440" height="22" rx="11" fill="#1E293B"/>
+    <text x="400" y="23" fill="#94A3B8" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="500">fynivo.in/dashboard</text>
+  
+      <rect y="38" width="800" height="462" fill="#F8FAFC"/>
+      <!-- Sidebar -->
+      <rect x="0" y="38" width="160" height="462" fill="#0F172A"/>
+      <rect x="20" y="60" width="28" height="28" rx="6" fill="#F59E0B"/>
+      <text x="56" y="79" fill="#FFFFFF" font-size="15" font-family="system-ui, sans-serif" font-weight="700">Fynivo CA</text>
+      <rect x="16" y="115" width="128" height="32" rx="6" fill="#1E293B"/>
+      <text x="36" y="136" fill="#F59E0B" font-size="12" font-family="system-ui, sans-serif" font-weight="600">📊 Overview</text>
+      <text x="36" y="174" fill="#94A3B8" font-size="12" font-family="system-ui, sans-serif">📑 Tax Records</text>
+      <text x="36" y="210" fill="#94A3B8" font-size="12" font-family="system-ui, sans-serif">👥 Client Ledgers</text>
+      <text x="36" y="246" fill="#94A3B8" font-size="12" font-family="system-ui, sans-serif">📂 Document Vault</text>
+      <text x="36" y="282" fill="#94A3B8" font-size="12" font-family="system-ui, sans-serif">⚙️ Settings</text>
+      <!-- Main Content -->
+      <text x="190" y="80" fill="#0F172A" font-size="20" font-family="system-ui, sans-serif" font-weight="800">Accountant & Ledger Management</text>
+      <text x="190" y="102" fill="#64748B" font-size="12" font-family="system-ui, sans-serif">Real-time accounting data, digital audit trails, and tax filings</text>
+      <!-- Stats Row -->
+      <g transform="translate(190, 125)">
+        <rect width="180" height="85" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+        <text x="16" y="28" fill="#64748B" font-size="11" font-family="system-ui, sans-serif" font-weight="600">TOTAL LEDGERS</text>
+        <text x="16" y="58" fill="#0F172A" font-size="24" font-family="system-ui, sans-serif" font-weight="800">₹ 4.82 Cr</text>
+        <rect x="125" y="18" width="40" height="20" rx="10" fill="#DCFCE7"/>
+        <text x="145" y="32" fill="#166534" font-size="10" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">+18%</text>
+      </g>
+      <g transform="translate(390, 125)">
+        <rect width="180" height="85" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+        <text x="16" y="28" fill="#64748B" font-size="11" font-family="system-ui, sans-serif" font-weight="600">ACTIVE TAX CLIENTS</text>
+        <text x="16" y="58" fill="#0F172A" font-size="24" font-family="system-ui, sans-serif" font-weight="800">1,240+</text>
+        <rect x="120" y="18" width="45" height="20" rx="10" fill="#FEF3C7"/>
+        <text x="142" y="32" fill="#B45309" font-size="10" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">ACTIVE</text>
+      </g>
+      <g transform="translate(590, 125)">
+        <rect width="180" height="85" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+        <text x="16" y="28" fill="#64748B" font-size="11" font-family="system-ui, sans-serif" font-weight="600">COMPLIANCE RATE</text>
+        <text x="16" y="58" fill="#10B981" font-size="24" font-family="system-ui, sans-serif" font-weight="800">99.4%</text>
+        <text x="16" y="74" fill="#94A3B8" font-size="10" font-family="system-ui, sans-serif">Automated verification</text>
+      </g>
+      <!-- Data Table Preview -->
+      <rect x="190" y="230" width="580" height="240" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+      <rect x="190" y="230" width="580" height="42" rx="12" fill="#F1F5F9"/>
+      <text x="210" y="256" fill="#475569" font-size="11" font-family="system-ui, sans-serif" font-weight="700">CLIENT / BUSINESS</text>
+      <text x="390" y="256" fill="#475569" font-size="11" font-family="system-ui, sans-serif" font-weight="700">GSTIN / PAN</text>
+      <text x="540" y="256" fill="#475569" font-size="11" font-family="system-ui, sans-serif" font-weight="700">FILING STATUS</text>
+      <text x="690" y="256" fill="#475569" font-size="11" font-family="system-ui, sans-serif" font-weight="700">AUDIT LOG</text>
+      <!-- Row 1 -->
+      <line x1="190" y1="312" x2="770" y2="312" stroke="#F1F5F9" stroke-width="1.5"/>
+      <text x="210" y="295" fill="#0F172A" font-size="12" font-family="system-ui, sans-serif" font-weight="600">AeroTech Solutions LLP</text>
+      <text x="390" y="295" fill="#64748B" font-size="11" font-family="system-ui, sans-serif">24AAACG1234F1Z5</text>
+      <rect x="540" y="280" width="85" height="22" rx="11" fill="#DCFCE7"/>
+      <text x="582" y="295" fill="#166534" font-size="10" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">✓ Filed Q3</text>
+      <text x="690" y="295" fill="#2563EB" font-size="11" font-family="system-ui, sans-serif">Verified ↗</text>
+      <!-- Row 2 -->
+      <line x1="190" y1="358" x2="770" y2="358" stroke="#F1F5F9" stroke-width="1.5"/>
+      <text x="210" y="341" fill="#0F172A" font-size="12" font-family="system-ui, sans-serif" font-weight="600">Zenith Retail Corporation</text>
+      <text x="390" y="341" fill="#64748B" font-size="11" font-family="system-ui, sans-serif">24AABCE5678H1Z8</text>
+      <rect x="540" y="326" width="85" height="22" rx="11" fill="#FEF3C7"/>
+      <text x="582" y="341" fill="#B45309" font-size="10" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">⏳ In Review</text>
+      <text x="690" y="341" fill="#2563EB" font-size="11" font-family="system-ui, sans-serif">Ledger ↗</text>
+      <!-- Row 3 -->
+      <line x1="190" y1="404" x2="770" y2="404" stroke="#F1F5F9" stroke-width="1.5"/>
+      <text x="210" y="387" fill="#0F172A" font-size="12" font-family="system-ui, sans-serif" font-weight="600">Bharat Precision Tools</text>
+      <text x="390" y="387" fill="#64748B" font-size="11" font-family="system-ui, sans-serif">24AABBP9012K1Z3</text>
+      <rect x="540" y="372" width="85" height="22" rx="11" fill="#DCFCE7"/>
+      <text x="582" y="387" fill="#166534" font-size="10" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">✓ Reconciled</text>
+      <text x="690" y="387" fill="#2563EB" font-size="11" font-family="system-ui, sans-serif">Vault ↗</text>
+    </svg>

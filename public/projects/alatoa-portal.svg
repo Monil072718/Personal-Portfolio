@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+      
+    <rect width="800" height="38" fill="#0F172A"/>
+    <circle cx="20" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="36" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="52" cy="19" r="5" fill="#10B981"/>
+    <rect x="180" y="8" width="440" height="22" rx="11" fill="#1E293B"/>
+    <text x="400" y="23" fill="#94A3B8" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="500">alatoa.in/portal</text>
+  
+      <rect y="38" width="800" height="462" fill="#0F172A"/>
+      <!-- Header -->
+      <rect y="38" width="800" height="60" fill="#1E293B"/>
+      <rect x="35" y="52" width="30" height="30" rx="6" fill="#F97316"/>
+      <text x="75" y="72" fill="#FFFFFF" font-size="16" font-family="system-ui, sans-serif" font-weight="800">ALATOA</text>
+      <text x="440" y="73" fill="#CBD5E1" font-size="12" font-family="system-ui, sans-serif">Verified Operators</text>
+      <text x="570" y="73" fill="#CBD5E1" font-size="12" font-family="system-ui, sans-serif">Trek Routes</text>
+      <rect x="670" y="52" width="100" height="32" rx="6" fill="#F97316"/>
+      <text x="720" y="72" fill="#FFFFFF" font-size="11" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">Operator Login</text>
+      <!-- Hero -->
+      <g transform="translate(40, 130)">
+        <text x="0" y="15" fill="#FB923C" font-size="11" font-family="system-ui, sans-serif" font-weight="700" letter-spacing="1.5">OFFICIAL ADVENTURE TOURISM BODY OF LADAKH</text>
+        <text x="0" y="55" fill="#FFFFFF" font-size="32" font-family="system-ui, sans-serif" font-weight="800">Certified Tour Operators &amp;</text>
+        <text x="0" y="90" fill="#FFFFFF" font-size="32" font-family="system-ui, sans-serif" font-weight="800">Expedition Member Portal</text>
+      </g>
+      <!-- Portal Overview Cards -->
+      <g transform="translate(40, 240)">
+        <rect width="720" height="220" rx="14" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+        <text x="24" y="36" fill="#FFFFFF" font-size="15" font-family="system-ui, sans-serif" font-weight="700">Active Member Tour Operators (180+ Verified)</text>
+        <!-- Table rows of operators -->
+        <g transform="translate(24, 55)">
+          <rect width="672" height="40" rx="8" fill="#0F172A"/>
+          <text x="16" y="25" fill="#FFFFFF" font-size="12" font-family="system-ui, sans-serif" font-weight="600">Himalayan Summit Expeditions</text>
+          <text x="280" y="25" fill="#94A3B8" font-size="11" font-family="system-ui, sans-serif">Mountaineering · Chadar Trek</text>
+          <rect x="520" y="10" width="80" height="20" rx="10" fill="#DCFCE7"/>
+          <text x="560" y="24" fill="#166534" font-size="10" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">✓ Verified</text>
+          <text x="620" y="25" fill="#38BDF8" font-size="11" font-family="system-ui, sans-serif">Profile ↗</text>
+        </g>
+        <g transform="translate(24, 105)">
+          <rect width="672" height="40" rx="8" fill="#0F172A"/>
+          <text x="16" y="25" fill="#FFFFFF" font-size="12" font-family="system-ui, sans-serif" font-weight="600">Zanskar Wild Trails</text>
+          <text x="280" y="25" fill="#94A3B8" font-size="11" font-family="system-ui, sans-serif">Rafting · Markha Valley</text>
+          <rect x="520" y="10" width="80" height="20" rx="10" fill="#DCFCE7"/>
+          <text x="560" y="24" fill="#166534" font-size="10" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">✓ Verified</text>
+          <text x="620" y="25" fill="#38BDF8" font-size="11" font-family="system-ui, sans-serif">Profile ↗</text>
+        </g>
+        <g transform="translate(24, 155)">
+          <rect width="672" height="40" rx="8" fill="#0F172A"/>
+          <text x="16" y="25" fill="#FFFFFF" font-size="12" font-family="system-ui, sans-serif" font-weight="600">Karakoram High Altitude Adventures</text>
+          <text x="280" y="25" fill="#94A3B8" font-size="11" font-family="system-ui, sans-serif">Stok Kangri · Motorcycle Tours</text>
+          <rect x="520" y="10" width="80" height="20" rx="10" fill="#DCFCE7"/>
+          <text x="560" y="24" fill="#166534" font-size="10" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">✓ Verified</text>
+          <text x="620" y="25" fill="#38BDF8" font-size="11" font-family="system-ui, sans-serif">Profile ↗</text>
+        </g>
+      </g>
+    </svg>

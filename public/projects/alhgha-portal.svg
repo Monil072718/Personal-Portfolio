@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+      
+    <rect width="800" height="38" fill="#0F172A"/>
+    <circle cx="20" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="36" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="52" cy="19" r="5" fill="#10B981"/>
+    <rect x="180" y="8" width="440" height="22" rx="11" fill="#1E293B"/>
+    <text x="400" y="23" fill="#94A3B8" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="500">alhgha.com</text>
+  
+      <rect y="38" width="800" height="462" fill="#F8FAFC"/>
+      <!-- Header -->
+      <rect y="38" width="800" height="60" fill="#1E3A8A"/>
+      <text x="40" y="74" fill="#FBBF24" font-size="18" font-family="system-ui, sans-serif" font-weight="800">ALHGHA <tspan fill="#FFFFFF" font-size="12" font-weight="500">LADAKH</tspan></text>
+      <text x="430" y="73" fill="#E0E7FF" font-size="12" font-family="system-ui, sans-serif">Hotels Directory</text>
+      <text x="550" y="73" fill="#E0E7FF" font-size="12" font-family="system-ui, sans-serif">Notices &amp; Tariffs</text>
+      <rect x="665" y="52" width="105" height="32" rx="6" fill="#FBBF24"/>
+      <text x="717" y="72" fill="#1E3A8A" font-size="11" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">Member Login</text>
+      <!-- Hero -->
+      <g transform="translate(40, 130)">
+        <text x="0" y="15" fill="#2563EB" font-size="11" font-family="system-ui, sans-serif" font-weight="700" letter-spacing="1">ALL LADAKH HOTEL &amp; GUEST HOUSE ASSOCIATION</text>
+        <text x="0" y="55" fill="#0F172A" font-size="32" font-family="system-ui, sans-serif" font-weight="800">Hospitality Portal &amp; Directory</text>
+        <text x="0" y="85" fill="#64748B" font-size="13" font-family="system-ui, sans-serif">Official registry of verified hotels, guest houses, and luxury camps in Leh and Ladakh.</text>
+      </g>
+      <!-- Search & Category Filters -->
+      <g transform="translate(40, 240)">
+        <rect width="720" height="50" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+        <text x="24" y="30" fill="#64748B" font-size="12" font-family="system-ui, sans-serif">🔍 Search by Hotel name, location (Leh, Nubra, Pangong), or tariff category...</text>
+        <rect x="610" y="8" width="95" height="34" rx="6" fill="#1E3A8A"/>
+        <text x="657" y="30" fill="#FFFFFF" font-size="11" font-family="system-ui, sans-serif" font-weight="600" text-anchor="middle">Search</text>
+      </g>
+      <!-- Hotel Cards Preview -->
+      <g transform="translate(40, 310)">
+        <rect width="220" height="155" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+        <text x="16" y="30" fill="#0F172A" font-size="14" font-family="system-ui, sans-serif" font-weight="700">The Grand Dragon Ladakh</text>
+        <text x="16" y="50" fill="#F59E0B" font-size="11" font-family="system-ui, sans-serif">★★★★★ Luxury Hotel · Leh</text>
+        <text x="16" y="75" fill="#64748B" font-size="10" font-family="system-ui, sans-serif">Member ID: ALHGHA-0012</text>
+        <text x="16" y="95" fill="#10B981" font-size="10" font-family="system-ui, sans-serif">✓ Annual Tariff Approved</text>
+        <rect x="16" y="115" width="188" height="28" rx="6" fill="#EFF6FF"/>
+        <text x="110" y="133" fill="#1E40AF" font-size="11" font-family="system-ui, sans-serif" font-weight="600" text-anchor="middle">View Tariff &amp; Rooms</text>
+      </g>
+      <g transform="translate(290, 310)">
+        <rect width="220" height="155" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+        <text x="16" y="30" fill="#0F172A" font-size="14" font-family="system-ui, sans-serif" font-weight="700">Nubra Organic Retreat</text>
+        <text x="16" y="50" fill="#F59E0B" font-size="11" font-family="system-ui, sans-serif">★★★★ Luxury Camp · Hunder</text>
+        <text x="16" y="75" fill="#64748B" font-size="10" font-family="system-ui, sans-serif">Member ID: ALHGHA-0184</text>
+        <text x="16" y="95" fill="#10B981" font-size="10" font-family="system-ui, sans-serif">✓ Annual Tariff Approved</text>
+        <rect x="16" y="115" width="188" height="28" rx="6" fill="#EFF6FF"/>
+        <text x="110" y="133" fill="#1E40AF" font-size="11" font-family="system-ui, sans-serif" font-weight="600" text-anchor="middle">View Tariff &amp; Rooms</text>
+      </g>
+      <g transform="translate(540, 310)">
+        <rect width="220" height="155" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+        <text x="16" y="30" fill="#0F172A" font-size="14" font-family="system-ui, sans-serif" font-weight="700">Pangong Lake View Resort</text>
+        <text x="16" y="50" fill="#F59E0B" font-size="11" font-family="system-ui, sans-serif">★★★ Eco Resort · Spangmik</text>
+        <text x="16" y="75" fill="#64748B" font-size="10" font-family="system-ui, sans-serif">Member ID: ALHGHA-0248</text>
+        <text x="16" y="95" fill="#10B981" font-size="10" font-family="system-ui, sans-serif">✓ Annual Tariff Approved</text>
+        <rect x="16" y="115" width="188" height="28" rx="6" fill="#EFF6FF"/>
+        <text x="110" y="133" fill="#1E40AF" font-size="11" font-family="system-ui, sans-serif" font-weight="600" text-anchor="middle">View Tariff &amp; Rooms</text>
+      </g>
+    </svg>

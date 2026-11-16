@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+      
+    <rect width="800" height="38" fill="#0F172A"/>
+    <circle cx="20" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="36" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="52" cy="19" r="5" fill="#10B981"/>
+    <rect x="180" y="8" width="440" height="22" rx="11" fill="#1E293B"/>
+    <text x="400" y="23" fill="#94A3B8" font-size="11" font-family="system-ui, -apple-system, sans-serif" text-anchor="middle" font-weight="500">centralasianmuseum.org</text>
+  
+      <rect y="38" width="800" height="462" fill="#FAF5EE"/>
+      <!-- Header -->
+      <rect y="38" width="800" height="60" fill="#2C1810"/>
+      <text x="40" y="75" fill="#C89D5E" font-size="17" font-family="serif" font-weight="700">CENTRAL ASIAN MUSEUM</text>
+      <text x="440" y="73" fill="#E8D8C8" font-size="12" font-family="system-ui, sans-serif">Exhibitions</text>
+      <text x="535" y="73" fill="#E8D8C8" font-size="12" font-family="system-ui, sans-serif">Silk Route</text>
+      <text x="615" y="73" fill="#E8D8C8" font-size="12" font-family="system-ui, sans-serif">Visit</text>
+      <rect x="680" y="52" width="90" height="32" rx="4" fill="#C89D5E"/>
+      <text x="725" y="72" fill="#2C1810" font-size="11" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">Plan Visit</text>
+      <!-- Hero -->
+      <g transform="translate(40, 130)">
+        <text x="0" y="15" fill="#8B4513" font-size="11" font-family="system-ui, sans-serif" font-weight="700" letter-spacing="2">LADAKH &amp; SILK ROUTE CULTURAL HERITAGE</text>
+        <text x="0" y="58" fill="#2C1810" font-size="34" font-family="serif" font-weight="700">Preserving Centuries of</text>
+        <text x="0" y="98" fill="#2C1810" font-size="34" font-family="serif" font-weight="700">Central Asian Living History</text>
+        <text x="0" y="135" fill="#5A3E31" font-size="13" font-family="serif">Explore antique manuscripts, Buddhist art, Islamic textiles, and caravan artifacts.</text>
+      </g>
+      <!-- Artifact Cards -->
+      <g transform="translate(40, 290)">
+        <rect width="220" height="175" rx="8" fill="#FFFFFF" stroke="#E2D4C3" stroke-width="1.5"/>
+        <rect width="220" height="100" fill="#EADBC8"/>
+        <text x="110" y="55" fill="#8B4513" font-size="28" text-anchor="middle">📜</text>
+        <text x="16" y="125" fill="#2C1810" font-size="13" font-family="serif" font-weight="700">The Silk Road Trade Room</text>
+        <text x="16" y="145" fill="#8B4513" font-size="11" font-family="system-ui, sans-serif">Caravan saddles &amp; bronze currency</text>
+      </g>
+      <g transform="translate(290, 290)">
+        <rect width="220" height="175" rx="8" fill="#FFFFFF" stroke="#E2D4C3" stroke-width="1.5"/>
+        <rect width="220" height="100" fill="#EADBC8"/>
+        <text x="110" y="55" fill="#8B4513" font-size="28" text-anchor="middle">🏺</text>
+        <text x="16" y="125" fill="#2C1810" font-size="13" font-family="serif" font-weight="700">Ancient Tibetan Manuscripts</text>
+        <text x="16" y="145" fill="#8B4513" font-size="11" font-family="system-ui, sans-serif">Gold ink calligraphy on mulberry paper</text>
+      </g>
+      <g transform="translate(540, 290)">
+        <rect width="220" height="175" rx="8" fill="#2C1810"/>
+        <text x="20" y="40" fill="#C89D5E" font-size="14" font-family="serif" font-weight="700">Visitor Hours &amp; Entry</text>
+        <text x="20" y="65" fill="#E8D8C8" font-size="11" font-family="system-ui, sans-serif">Open Daily: 10:00 AM – 6:00 PM</text>
+        <text x="20" y="85" fill="#E8D8C8" font-size="11" font-family="system-ui, sans-serif">Location: Old Town, Leh, Ladakh</text>
+        <rect x="20" y="115" width="180" height="35" rx="4" fill="#C89D5E"/>
+        <text x="110" y="137" fill="#2C1810" font-size="11" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">Get Visitor Pass</text>
+      </g>
+    </svg>
